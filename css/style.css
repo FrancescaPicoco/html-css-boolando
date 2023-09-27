@@ -25,6 +25,60 @@ nav{
    background-size: cover;
    background-position: center;
 }
+.mod-1:hover{
+    background-image: url(../img/1b.webp);
+ }
+.mod-2{
+   width: 100%;
+   height: 90%;
+   background-image: url("../img/2.webp");
+   background-size: cover;
+   background-position: center;
+}
+.mod-2:hover{
+    background-image: url(../img/2b.webp);
+ }
+ .mod-3{
+    width: 100%;
+    height: 90%;
+    background-image: url("../img/3.webp");
+    background-size: cover;
+    background-position: center;
+ }
+ .mod-3:hover{
+     background-image: url(../img/3b.webp);
+  }
+ .mod-4{
+    width: 100%;
+    height: 90%;
+    background-image: url("../img/4.webp");
+    background-size: cover;
+    background-position: center;
+ }
+ .mod-4:hover{
+     background-image: url(../img/4b.webp);
+  }
+  .mod-5{
+    width: 100%;
+    height: 90%;
+    background-image: url("../img/5.webp");
+    background-size: cover;
+ }
+ .mod-5:hover{
+     background-image: url(../img/5b.webp);
+  }
+ .mod-6{
+    width: 100%;
+    height: 90%;
+    background-image: url("../img/6.webp");
+    background-size: cover;
+    background-position: center;
+ }
+ .mod-6:hover{
+     background-image: url(../img/6b.webp);
+  }
+
+
 .dscript{
   padding: 5px;
 }
@@ -41,12 +95,10 @@ nav{
 h2{
     font-size: 15px;
 }
-.mod-1{
+.mod-1 , .mod-2 , .mod-3 , .mod-4 , .mod-5 , .mod-6{
     position:relative
 }
-.mod-1:hover{
-   background-image: url(../img/1b.webp);
-}
+
 .wish{
     width: 25px;
     height: 25px;
@@ -62,12 +114,23 @@ h2{
     cursor: pointer;
 }
 .ending-line{
-    background-color: rgba(94, 54, 54, 0.884);
+    background-color: rgba(0, 0, 0, 0.849);
     width: 100vw;
-    height: 10vh;
+    height: 17vh;
+    line-height: 0.7;
 }
 h5{
-    color:white
+    color:white;
+    font-size: 17px;
+    padding-top: 20px;
+}
+h6{
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+}
+i{
+    padding-left: 7px;
 }
 .sale , .eco{
     display: inline-block;
