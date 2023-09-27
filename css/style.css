@@ -5,3 +5,14 @@ nav{
     
 }
 .logo-header{ height: 4vh;}
+
+.card{
+    width: calc((100% / 3) - 60px);
+    height: 50vh;
+    background-color: white;
+    border: 1px solid black;
+    margin:30px;
+}
+.cont-cent{
+    width: 75vw;
+}
