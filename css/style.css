@@ -1,5 +1,7 @@
-*{
- margin: 0;
- padding:0;
- box-sizing: border-box;
+nav{
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(255, 105, 0);
+    
 }
+.logo-header{ height: 4vh;}
