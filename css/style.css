@@ -12,6 +12,7 @@ nav{
     background-color:white;
     border: 1px solid black;
     margin:40px;
+    border: none;
 }
 .cont-cent{
     width: 75vw;
@@ -58,4 +59,30 @@ h2{
 }
 .wish:hover{
     color: red;
+    cursor: pointer;
+}
+.ending-line{
+    background-color: rgba(94, 54, 54, 0.884);
+    width: 100vw;
+    height: 10vh;
+}
+h5{
+    color:white
+}
+.sale , .eco{
+    display: inline-block;
+    position: absolute;
+}
+.sale{
+    background-color: red;
+    bottom:30px;
+}
+.eco{
+    background-color: greenyellow;
+    bottom: 30px;
+    left:45px;
+}
+.sale:hover , .eco:hover{
+    background-color: rgb(93, 190, 222);
+    cur
 }
