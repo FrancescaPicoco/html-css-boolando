@@ -19,6 +19,7 @@ body{background-color :
 .jcont-cent{justify-content: center;}
 .jcont-betw{justify-content: space-between;}
 .jcont-arnd{justify-content: space-around;}
+.jcont-end{justify-content: flex-end;}
 .alg-items{align-items: center;}
 .flex-di-col{flex-direction: column;}
 

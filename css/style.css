@@ -12,31 +12,34 @@ nav{
 main{
     margin-top: 5%}
 .container{
-    width: 75vw;
-    height: 75vh;
+    width: 70vw;
+    height: 1060px;
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
     }
-
+.container-foot{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
 .card{
     width: calc((100% / 3) - 80px);
-    height: 450px;
-    background-color: rgba(222, 158, 158, 0.689);
+    height: 445px;
+    background-color: rgba(222, 158, 158, 0.475);
     border: 1px solid white;
-    margin: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .mod>img{
     width: 100%;
-    height: 385px;
+    height: 380px;
 }
 .frst-img{
-    background-color: blueviolet;
     display: inline-block;
     position: absolute;
 }
 .scnd-img{
-    background-color: brown;
     display: none;
     position: absolute;
 }
@@ -48,9 +51,11 @@ main{
 }
 .mod{
  position: relative;
+ height: 380px;
 }
 .badges{
-    position: relative;
+    position: absolute;
+    bottom: 10px;
 }
 .heart{
     position: absolute;
@@ -58,16 +63,15 @@ main{
     color: red;
     top:100px;
 }
-
-
-
-.dscript{
+.info-item{
   padding: 5px;
 }
 .brand{
+    font-weight: bold;
     font-size: 13px;
 }
 .price , .pricex{
+    font-weight: bold;
     font-size: 13px;
 }
 .pricex{
@@ -78,10 +82,6 @@ main{
 h2{
     font-size: 15px;
 }
-.mod-1 , .mod-2 , .mod-3 , .mod-4 , .mod-5 , .mod-6{
-    position:relative
-}
-
 .wish{
     width: 25px;
     height: 25px;
@@ -96,18 +96,23 @@ h2{
     color: red;
     cursor: pointer;
 }
-.ending-line{
+footer{
     background-color: rgba(0, 0, 0, 0.849);
-    width: 100vw;
-    height: 17vh;
+    width: 100%;
+    height: 70px;
+}
+.ending-lin{
+    
+    width: 100v
+    height: vh;
     line-height: 0.7;
 }
-h5{
+h3{
     color:white;
     font-size: 17px;
     padding-top: 20px;
 }
-h6{
+h{6
     color: white;
     font-size: 15px;
     padding: 20px;
@@ -117,21 +122,21 @@ i{
 }
 .sale , .eco , .just-eco{
     display: inline-block;
-    position: absolute;
+    position: absolut
 }
 .sale{
     background-color: red;
-    bottom:30px;
+    bottom:30p
 }
 .eco{
     background-color: greenyellow;
-    bottom: 30px;
-    left:45px;
+    bottom: 30p
+    left:45p
 }
 .just-eco{
     background-color: greenyellow;
     bottom:30px;}
 .sale:hover , .eco:hover{
     background-color: rgb(93, 190, 222);
-    cur
+    cursor: pointer;
 }
