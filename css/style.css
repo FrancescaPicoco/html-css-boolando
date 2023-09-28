@@ -9,76 +9,56 @@ nav{
 }
 .logo-header{ height: 4vh;}
 
-.card{
-    width: calc((100% / 3) - 80px);
-    height: 60vh;
-    background-color:white;
-    border: 1px solid black;
-    margin:40px;
-    border: none;
-}
-.cont-cent{
+main{
+    margin-top: 5%}
+.container{
     width: 75vw;
+    height: 75vh;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
     }
 
-.mod-1{
-   width: 100%;
-   height: 90%;
-   background-image: url("../img/1.webp");
-   background-size: cover;
-   background-position: center;
+.card{
+    width: calc((100% / 3) - 80px);
+    height: 450px;
+    background-color: rgba(222, 158, 158, 0.689);
+    border: 1px solid white;
+    margin: 40px;
 }
-.mod-1:hover{
-    background-image: url(../img/1b.webp);
- }
-.mod-2{
-   width: 100%;
-   height: 90%;
-   background-image: url("../img/2.webp");
-   background-size: cover;
+.mod>img{
+    width: 100%;
+    height: 385px;
 }
-.mod-2:hover{
-    background-image: url(../img/2b.webp);
- }
- .mod-3{
-    width: 100%;
-    height: 90%;
-    background-image: url("../img/3.webp");
-    background-size: cover;
-    background-position: center;
- }
- .mod-3:hover{
-     background-image: url(../img/3b.webp);
-  }
- .mod-4{
-    width: 100%;
-    height: 90%;
-    background-image: url("../img/4.webp");
-    background-size: cover;
-    background-position: center;
- }
- .mod-4:hover{
-     background-image: url(../img/4b.webp);
-  }
-  .mod-5{
-    width: 100%;
-    height: 90%;
-    background-image: url("../img/5.webp");
-    background-size: cover;
- }
- .mod-5:hover{
-     background-image: url(../img/5b.webp);
-  }
- .mod-6{
-    width: 100%;
-    height: 90%;
-    background-image: url("../img/6.webp");
-    background-size: cover;
-    background-position: center;
- }
- .mod-6:hover{
-     background-image: url(../img/6b.webp);
-  }
+.frst-img{
+    background-color: blueviolet;
+    display: inline-block;
+    position: absolute;
+}
+.scnd-img{
+    background-color: brown;
+    display: none;
+    position: absolute;
+}
+.mod:hover .frst-img{
+ display: none;
+}
+.mod:hover .scnd-img{
+    display: inline-block;
+}
+.mod{
+ position: relative;
+}
+.badges{
+    position: relative;
+}
+.heart{
+    position: absolute;
+    right: 0;
+    color: red;
+    top:100px;
+}
+
 
 
 .dscript{
