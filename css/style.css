@@ -2,7 +2,10 @@ nav{
     width: 100vw;
     height: 5vh;
     background-color: rgb(255, 105, 0);
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;   
 }
 .logo-header{ height: 4vh;}
 
@@ -33,7 +36,6 @@ nav{
    height: 90%;
    background-image: url("../img/2.webp");
    background-size: cover;
-   background-position: center;
 }
 .mod-2:hover{
     background-image: url(../img/2b.webp);
@@ -92,6 +94,7 @@ nav{
     color: red;
     text-decoration: line-through;
 }
+.price-red{color: red;}
 h2{
     font-size: 15px;
 }
@@ -132,7 +135,7 @@ h6{
 i{
     padding-left: 7px;
 }
-.sale , .eco{
+.sale , .eco , .just-eco{
     display: inline-block;
     position: absolute;
 }
@@ -145,6 +148,9 @@ i{
     bottom: 30px;
     left:45px;
 }
+.just-eco{
+    background-color: greenyellow;
+    bottom:30px;}
 .sale:hover , .eco:hover{
     background-color: rgb(93, 190, 222);
     cur
